@@ -1,7 +1,3 @@
-import uvloop
-
-uvloop.install()
-
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
 
@@ -55,3 +51,4 @@ class Aviax(Client):
 
     async def stop(self):
         await super().stop()
+
